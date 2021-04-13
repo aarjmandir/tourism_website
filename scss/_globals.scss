@@ -2,6 +2,10 @@
     font-family: sahel;
 }
 
+html{
+    scroll-behavior: smooth !important;
+}
+
 a, a:active, a:hover, a:visited{
     text-decoration: none;
     font-family: sahel !important;

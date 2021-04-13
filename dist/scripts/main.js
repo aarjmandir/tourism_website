@@ -39,7 +39,7 @@ $("#date").persianDatepicker({
 $('#specialOffers').owlCarousel({
     loop:true,
     margin:10,
-    nav:false,
+    nav:true,
     dots: false,
     rtl: true,
     responsive:{

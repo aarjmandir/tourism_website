@@ -18,5 +18,19 @@
                 }
             }
         }
+
+        .owl-prev, .owl-next{
+            span{
+                padding: 0 20px !important;
+                margin: 0 5px;
+                font-size: 30px;
+                border: 2px solid $darkBlue;
+                border-radius: 50%;
+
+                &:hover{
+                    background-color: $green;
+                }
+            }
+        }
     }
 }
