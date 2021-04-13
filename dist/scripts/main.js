@@ -34,3 +34,23 @@ function fillDestinationInput () {
 $("#date").persianDatepicker({
     format: 'YYYY/MM/DD',
 });
+
+// Owl Carousel
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots: false,
+    rtl: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
