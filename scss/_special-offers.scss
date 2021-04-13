@@ -3,6 +3,8 @@
 
         .owl-stage-outer{
             overflow: visible;
+            overflow-x: hidden;
+            padding: 1.875rem 0;
         }
 
         .owl-item{

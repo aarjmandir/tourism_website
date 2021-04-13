@@ -1,0 +1,31 @@
+#happyClient{
+
+    .owl-stage-outer{
+        overflow: visible;
+        overflow-x: hidden;
+        border-color: #dedede !important;
+        padding-bottom: 50px;
+    }
+
+    .message{
+        border-top: 5px solid $green !important;
+        position: relative;
+        opacity: .6;
+        transition: opacity 200ms ease-in-out;
+        &::after{
+            content: "";
+            width: 50px;
+            height: 35px;
+            position: absolute;
+            bottom: -18px;
+            left: 50px;
+            border-left: 1px solid #dedede;
+            border-bottom: 1px solid #dedede;
+            transform: rotate(-35deg);
+            background: #fff;
+        }
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

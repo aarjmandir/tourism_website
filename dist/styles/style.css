@@ -217,6 +217,8 @@ a, a:active, a:hover, a:visited {
 
 .special-offers .owl-carousel .owl-stage-outer {
   overflow: visible;
+  overflow-x: hidden;
+  padding: 1.875rem 0;
 }
 
 @media screen and (min-width: 767px) {
@@ -277,5 +279,38 @@ a, a:active, a:hover, a:visited {
 .holidays-type .types a:hover {
   color: #1dd2af;
   border-color: #1dd2af;
+}
+
+#happyClient .owl-stage-outer {
+  overflow: visible;
+  overflow-x: hidden;
+  border-color: #dedede !important;
+  padding-bottom: 50px;
+}
+
+#happyClient .message {
+  border-top: 5px solid #1dd2af !important;
+  position: relative;
+  opacity: .6;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+#happyClient .message::after {
+  content: "";
+  width: 50px;
+  height: 35px;
+  position: absolute;
+  bottom: -18px;
+  left: 50px;
+  border-left: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+  background: #fff;
+}
+
+#happyClient .message:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */

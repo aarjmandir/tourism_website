@@ -36,7 +36,7 @@ $("#date").persianDatepicker({
 });
 
 // Owl Carousel
-$('.owl-carousel').owlCarousel({
+$('#specialOffers').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
@@ -51,6 +51,25 @@ $('.owl-carousel').owlCarousel({
         },
         1000:{
             items:5
+        }
+    }
+})
+//  Happy Client
+$('#happyClient').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots: false,
+    rtl: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
         }
     }
 })
