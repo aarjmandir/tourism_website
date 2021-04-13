@@ -1,0 +1,39 @@
+.holidays-type{
+    position: relative;
+    background-image: url("/images/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 32.25rem;
+
+    .container{
+        top: 5rem;
+        @media screen and (max-width: 48rem) {
+            top: 0;
+            padding-bottom: 1.875rem;
+        }
+    }
+
+    .types{
+
+        a{
+            color: #fff;
+            font-size: 3.125rem;
+            margin: 0.625rem;
+            padding: 0.9375rem 1.25rem;
+            border: 0.3125rem solid #fff;
+            border-radius: 31.25rem;
+            transition: border 200ms ease-in-out, color 200ms ease-in-out;
+            &:nth-child(even){
+                padding: 0.9375rem 1.75rem; 
+            }
+            &:last-child{
+                padding: 0.9375rem 2.1875rem; 
+            }
+            &:hover{
+                color: $green;
+                border-color: $green;
+            }
+        }
+    }
+}

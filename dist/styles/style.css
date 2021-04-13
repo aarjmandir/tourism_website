@@ -20,7 +20,7 @@ a, a:active, a:hover, a:visited {
   width: 100%;
   height: 100%;
   background-color: #234857;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .bg-darkBlue {
@@ -233,5 +233,49 @@ a, a:active, a:hover, a:visited {
     border: 4px solid #1dd2af;
     z-index: 20000000;
   }
+}
+
+.holidays-type {
+  position: relative;
+  background-image: url("/images/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-height: 32.25rem;
+}
+
+.holidays-type .container {
+  top: 5rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .holidays-type .container {
+    top: 0;
+    padding-bottom: 1.875rem;
+  }
+}
+
+.holidays-type .types a {
+  color: #fff;
+  font-size: 3.125rem;
+  margin: 0.625rem;
+  padding: 0.9375rem 1.25rem;
+  border: 0.3125rem solid #fff;
+  border-radius: 31.25rem;
+  -webkit-transition: border 200ms ease-in-out, color 200ms ease-in-out;
+  transition: border 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.holidays-type .types a:nth-child(even) {
+  padding: 0.9375rem 1.75rem;
+}
+
+.holidays-type .types a:last-child {
+  padding: 0.9375rem 2.1875rem;
+}
+
+.holidays-type .types a:hover {
+  color: #1dd2af;
+  border-color: #1dd2af;
 }
 /*# sourceMappingURL=style.css.map */
