@@ -4,23 +4,23 @@
         overflow: visible;
         overflow-x: hidden;
         border-color: #dedede !important;
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
     }
 
     .message{
-        border-top: 5px solid $green !important;
+        border-top: .3125rem solid $green !important;
         position: relative;
-        opacity: .6;
+        opacity: 0.6;
         transition: opacity 200ms ease-in-out;
         &::after{
             content: "";
-            width: 50px;
-            height: 35px;
+            width: 3.125rem;
+            height: 2.1875rem;
             position: absolute;
-            bottom: -18px;
-            left: 50px;
-            border-left: 1px solid #dedede;
-            border-bottom: 1px solid #dedede;
+            bottom: -1.125rem;
+            left: 3.125rem;
+            border-left: 0.0625rem solid #dedede;
+            border-bottom: 0.0625rem solid #dedede;
             transform: rotate(-35deg);
             background: #fff;
         }

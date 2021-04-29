@@ -47,7 +47,7 @@
         &:first-child .nav-link span{
             padding: 0.25rem 0.5rem !important;
             transition: background-color 200ms ease-in-out;
-            border-width: 2px !important;
+            border-width: .125rem !important;
             color: #000000;
 
             &:hover{
@@ -77,10 +77,10 @@
     &-title{
         flex: 1;
         position: relative;
-        border-left: 1px solid #3f5366;
-        margin-left: 5px;
-        @media screen and (max-width: 991px) {
-            font-size: 20px;
+        border-left: .0625rem solid #3f5366;
+        margin-left: .3125rem;
+        @media screen and (max-width: 61.9375rem) {
+            font-size: .125rem;
             font-weight: bold;
             border: none;
         }
@@ -88,17 +88,17 @@
         &::after{
             content: '';
             position: absolute;
-            left: -1px;
+            left: -.0625rem;
             top: 50%;
             display: block;
-            border-left: 1px solid #3f5366;
-            border-top: 1px solid #3f5366;
-            width: 10px;
-            height: 10px;
+            border-left: .0625rem solid #3f5366;
+            border-top: .0625rem solid #3f5366;
+            width: .625rem;
+            height: .625rem;
             transform: translate(-50%, -50%) rotate(-45deg);
             background-color: $darkBlue;
 
-            @media screen and (max-width: 991px) { display: none; }
+            @media screen and (max-width: 61.9375rem) { display: none; }
         }
     }
 
@@ -106,24 +106,24 @@
         flex: 8;
 
         label{
-            min-width: 55px;
-            @media screen and (max-width: 991px) {
-                margin-top: 15px;
-                margin-bottom: 15px;
+            min-width: 3.4375rem;
+            @media screen and (max-width: 61.9375rem) {
+                margin-top: 0.9375rem;
+                margin-bottom: 0.9375rem;
             }
         }
 
         input{
             font-family: sahel;
-            min-width: 322px;
-            max-width: 322px;
+            min-width: 20.125rem;
+            max-width: 20.125rem;
             &[type='submit']{ 
                 color:#fff;
-                min-width: 110px; 
-                max-width: 110px;
-                @media screen and (max-width: 991px) {
-                    margin-top: 15px;
-                    margin-bottom: 15px;
+                min-width: 6.875rem; 
+                max-width: 6.875rem;
+                @media screen and (max-width: 61.9375rem) {
+                    margin-top: 0.9375rem;
+                    margin-bottom: 0.9375rem;
                 }
             }
         }
@@ -131,8 +131,8 @@
         .select{
             position: relative;
             select{
-                min-width: 322px;
-                max-width: 322px;
+                min-width: 20.125rem;
+                max-width: 20.125rem;
             }
         }
 
@@ -147,7 +147,7 @@
             transform: translateY(-50%);
             color: $textGray;
 
-            @media screen and (max-width: 991px) {
+            @media screen and (max-width: 61.9375rem) {
                 right: 6%;
                 top: 79%;
             }

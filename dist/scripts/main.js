@@ -9,12 +9,6 @@ function eventListener(){
     document.addEventListener('DOMContentLoaded', function(){
         fillDestinationInput();
     });
-
-    // form.addEventListener('submit', function(e){
-    //     e.preventDefault();
-    //     const date = document.getElementById('date').value;
-    //     const place = document.getElementById('place').value;
-    // });
 }
 
 // Fill destination input
@@ -36,6 +30,7 @@ $("#date").persianDatepicker({
 });
 
 // Owl Carousel
+// Special recommendation carousel
 $('#specialOffers').owlCarousel({
     loop:true,
     margin:10,
@@ -54,7 +49,7 @@ $('#specialOffers').owlCarousel({
         }
     }
 })
-//  Happy Client
+//  Happy Client carousel
 $('#happyClient').owlCarousel({
     loop:true,
     margin:10,
